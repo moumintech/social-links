@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  max-width: 1440px;
+}
+body {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+}
+h1 {
+  font-weight: 700;
+  color: hsl(75, 94%, 57%);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid #fff;
+}
