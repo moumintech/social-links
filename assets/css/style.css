@@ -12,8 +12,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+.wrapper {
+  border: solid 2px transparent;
+  padding: 18px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+.name-profile {
+  display: flex;
+  flex-direction: column;
+}
+.name-profile img {
+  border-radius: 50%;
 }
 h1 {
   font-weight: 700;
+  text-align: center;
+}
+.pay {
+  text-align: center;
+  font-weight: bold;
   color: hsl(75, 94%, 57%);
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
