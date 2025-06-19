@@ -28,6 +28,10 @@ body {
 }
 .name-profile img {
   border-radius: 50%;
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1 {
   font-weight: 700;
@@ -37,6 +41,28 @@ h1 {
   text-align: center;
   font-weight: bold;
   color: hsl(75, 94%, 57%);
+}
+.job {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  padding: 10px 50px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  font-weight: bold;
 }
 .attribution {
   position: absolute;
