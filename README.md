@@ -6,7 +6,7 @@ Ce projet est un défi [Social links profile ](https://www.frontendmentor.io/cha
 
 ## **Aperçu du projet**
 
-**Lien du projet en ligne** : [Voir le projet]
+**Lien du projet en ligne** : [Voir le projet](https://social-media-defi.netlify.app/)
 
 ---
 
